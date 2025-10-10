@@ -14,6 +14,7 @@ public class pepasm {
             parser.parse(pepFile);
         }
         else {
+            //if there are no arguments, let the user know that something is fucked up
             System.out.println("Error: No file detected.");
         }
     }
