@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="047eb5a7-5d3d-4a42-9c67-e9e114997b4a" name="Changes" comment="Created the Class &quot;Assembler&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="047eb5a7-5d3d-4a42-9c67-e9e114997b4a" name="Changes" comment="Added the resources for the project, such as the instructions and the pep files">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pepParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pepasm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assembler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +52,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.pepasm.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -63,6 +65,21 @@
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="pepasm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pepasm" />
+      <module name="Project-Assembler.main" />
+      <option name="PROGRAM_PARAMETERS" value="program1.pep" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.pepasm" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -151,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759934861315</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added the resources for the project, such as the instructions and the pep files">
+      <option name="closed" value="true" />
+      <created>1760104791047</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1760104791047</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +205,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created Project" />
     <MESSAGE value="Created the Class &quot;Assembler&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the Class &quot;Assembler&quot;" />
+    <MESSAGE value="Added the resources for the project, such as the instructions and the pep files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the resources for the project, such as the instructions and the pep files" />
   </component>
 </project>
