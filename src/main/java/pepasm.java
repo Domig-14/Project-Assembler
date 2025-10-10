@@ -12,7 +12,6 @@ public class pepasm {
             //send the pep file to the parser
             pepParser parser = new pepParser();
             parser.parse(pepFile);
-
         }
         else {
             System.out.println("Error: No file detected");
