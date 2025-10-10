@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="047eb5a7-5d3d-4a42-9c67-e9e114997b4a" name="Changes" comment="Added the resources for the project, such as the instructions and the pep files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pepParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pepasm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assembler.java" afterDir="false" />
+    <list default="true" id="047eb5a7-5d3d-4a42-9c67-e9e114997b4a" name="Changes" comment="Started the parser">
+      <change beforePath="$PROJECT_DIR$/src/main/java/pepParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pepParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +174,23 @@
       <option name="project" value="LOCAL" />
       <updated>1760104791047</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added the pepasm and the pepParser class. and made sure that the parser class launches when given an argument">
+      <option name="closed" value="true" />
+      <created>1760106084879</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1760106084879</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Started the parser">
+      <option name="closed" value="true" />
+      <created>1760106536195</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1760106536195</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +220,8 @@
     <MESSAGE value="Created Project" />
     <MESSAGE value="Created the Class &quot;Assembler&quot;" />
     <MESSAGE value="Added the resources for the project, such as the instructions and the pep files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the resources for the project, such as the instructions and the pep files" />
+    <MESSAGE value="Added the pepasm and the pepParser class. and made sure that the parser class launches when given an argument" />
+    <MESSAGE value="Started the parser" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started the parser" />
   </component>
 </project>

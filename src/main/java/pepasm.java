@@ -14,7 +14,7 @@ public class pepasm {
             parser.parse(pepFile);
         }
         else {
-            System.out.println("Error: No file detected");
+            System.out.println("Error: No file detected.");
         }
     }
 }
