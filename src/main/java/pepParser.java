@@ -16,6 +16,7 @@ public class pepParser {
         //Read pep file line by line
         try (BufferedReader reader = new BufferedReader(new FileReader(pepFile))){
             while ((line = reader.readLine()) != null){
+                //System.out.println(line);
                 //send line to the assembler to generate machine code
                 result = (result + " " + assembler.assemble(line));
             }
