@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="047eb5a7-5d3d-4a42-9c67-e9e114997b4a" name="Changes" comment="Started the parser">
+    <list default="true" id="047eb5a7-5d3d-4a42-9c67-e9e114997b4a" name="Changes" comment="Added the code for the Assembler program.&#10;&#10;NOTE: I am getting a really frustrating error on line 13 of the assembler program, I am using my big computer. No matter what I do, it will say array Index 1 out of bounds for length 1. However, if I print the length of the array, it says it has a length of 3">
+      <change afterPath="$PROJECT_DIR$/src/test/java/projectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/assembler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/assembler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/pepParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/pepParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/pepasm.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/pepasm.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/assembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assembler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pepParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pepParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pepasm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pepasm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +46,23 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Domig-14&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Domig-14/Project-Assembler&quot;,
+    &quot;accountId&quot;: &quot;40bb353a-277b-45c8-bb37-52380b4cdb49&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -61,22 +85,41 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Projects/CS230 2025/Attempt 2/Project-Assembler",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.45402297",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\School\CS230\Attempt 2\Project-Assembler\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in Project-Assembler.test">
     <configuration name="pepasm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pepasm" />
       <module name="Project-Assembler.main" />
-      <option name="PROGRAM_PARAMETERS" value="program1.pep" />
+      <option name="PROGRAM_PARAMETERS" value="program3.pep" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in Project-Assembler.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project-Assembler.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.pepasm" />
+      <item itemvalue="JUnit.All in Project-Assembler.test" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Project-Assembler.test" />
         <item itemvalue="Application.pepasm" />
       </list>
     </recent_temporary>
@@ -186,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760106536195</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added the code for the Assembler program.&#10;&#10;NOTE: I am getting a really frustrating error on line 13 of the assembler program, I am using my big computer. No matter what I do, it will say array Index 1 out of bounds for length 1. However, if I print the length of the array, it says it has a length of 3">
+      <option name="closed" value="true" />
+      <created>1760122964736</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1760122964736</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +269,20 @@
     <MESSAGE value="Added the resources for the project, such as the instructions and the pep files" />
     <MESSAGE value="Added the pepasm and the pepParser class. and made sure that the parser class launches when given an argument" />
     <MESSAGE value="Started the parser" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started the parser" />
+    <MESSAGE value="Added the code for the Assembler program.&#10;&#10;NOTE: I am getting a really frustrating error on line 13 of the assembler program, I am using my big computer. No matter what I do, it will say array Index 1 out of bounds for length 1. However, if I print the length of the array, it says it has a length of 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the code for the Assembler program.&#10;&#10;NOTE: I am getting a really frustrating error on line 13 of the assembler program, I am using my big computer. No matter what I do, it will say array Index 1 out of bounds for length 1. However, if I print the length of the array, it says it has a length of 3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Project_Assembler$pepasm.ic" NAME="pepasm Coverage Results" MODIFIED="1760124724523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>

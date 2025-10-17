@@ -11,7 +11,9 @@ public class pepasm {
 
             //send the pep file to the parser
             pepParser parser = new pepParser();
-            parser.parse(pepFile);
+            String output = parser.parse(pepFile);
+
+            System.out.println(output);
         }
         else {
             //if there are no arguments, let the user know that something is fucked up
